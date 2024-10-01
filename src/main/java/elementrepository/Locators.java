@@ -10,7 +10,7 @@ public class Locators extends Base {
 		WebElement message1 = driver.findElement(By.id("value-a"));
 		WebElement message2 = driver.findElement(By.id("value-b"));
 		WebElement message3 = driver.findElement(By.id("inlineRadio21"));
-		WebElement message =driver.findElement(By.id("inlineRadio22"));
+		WebElement message5 =driver.findElement(By.id("inlineRadio22"));
 		
 	}
 	public void locatingbyclass() {
