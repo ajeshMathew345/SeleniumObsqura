@@ -40,21 +40,33 @@ public void locatingbyName() {
 	public void locatingbyCssTagandId() {
 		
 		WebElement tagandid = driver.findElement(By.cssSelector("input#single-input-field"));
+		WebElement tagandidbutton = driver.findElement(By.cssSelector("button#button-one"));
+		WebElement tagandidmessage = driver.findElement(By.cssSelector("button#imessage-one"));
+		
+		
 	}
 	
 	public void locatingbyTagandClass() {
 		
 		WebElement tagandclass = driver.findElement(By.cssSelector("input.form-control"));
+		WebElement tagandclass1 = driver.findElement(By.cssSelector("div.my-2"));
+		WebElement tagandclass2 = driver.findElement(By.cssSelector("button.btn btn-primary"));
+		
 	}
 	
 	public void locatingbyTagandAttribute() {
 		
 		WebElement tagandattribute = driver.findElement(By.cssSelector("input[id=single-input-field]"));
+		WebElement tagandattribute1 = driver.findElement(By.cssSelector("div[class=my-2]"));
+		WebElement tagandattribute2 = driver.findElement(By.cssSelector("button[class=btn btn-primary]"));
+		
 	}
 	
 	public void locatingbyTagClassAttribute() {
 		
 		WebElement tagclassattribute = driver.findElement(By.cssSelector("input.form-control[id=single-input-field]"));
+		WebElement button = driver.findElement(By.cssSelector("input.form-controlbutton[id=button-one]"));
+		
 	}
 
 	public static void main(String[] args) {

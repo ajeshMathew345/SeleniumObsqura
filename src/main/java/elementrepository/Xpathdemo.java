@@ -21,8 +21,23 @@ public void relativeXpath() {
 public void dynamicXpath()
 {
 	WebElement dynamic=driver.findElement(By.xpath("//input[contains(@id,'single-input-field')]"));//contains
+	WebElement dynamic1=driver.findElement(By.xpath("//input[contains(@class,'form-control')]"));
+	WebElement dynamic2=driver.findElement(By.xpath("//div[contains(@class,'my-2')]"));
+		
 }
-WebElement dynamic1=driver.findElement(By.xpath("//button[text()='Show Message']"));//text
+WebElement Xpathwithtext=driver.findElement(By.xpath("//button[text()='Show Message']"));//text
+WebElement Xpathwithtext2=driver.findElement(By.xpath("//div[text()=' Total A + B : ']"));
+WebElement Xpathwithtext3=driver.findElement(By.xpath("//div[text()='  Two Input Fields ']"));
+
+//div[text()=' Total A + B : ']
 
 WebElement axes=driver.findElement(By.xpath("//a[@class='navbar-brand']//child::img[@alt='logo']"));
+
+WebElement axes1=driver.findElement(By.xpath("//button[@id='button-one']//parent::form"));
+
+WebElement axes2=driver.findElement(By.xpath("//input[@type='text']//following::input"));
+
+//input[@type='text']//following::input
+
+//button[@id='button-one']//parent::form
 }
